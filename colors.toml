@@ -1,0 +1,37 @@
+# Slate Signal — Day
+# Near-achromatic chassis (hue ~245, chroma ~0.004) + azure state identity.
+# Selection is a single 'selection' key; theme-set derives selection_foreground
+# / selection_background from it (contrast-picked). No selection edge exists in
+# any target terminal/editor, so the region is carried by a STRONG plain fill.
+
+mode = "light"
+
+accent    = "#16589f"   # blue == accent == link; the only state color
+selection = "#97abc4"   # fill/bg 2.13:1 ; derived fg keeps text >=7:1
+muted     = "#5a6068"   # secondary text, doubles as ANSI 8 (color8)
+
+background        = "#f3f4f6"   # off paper-white: avoids end-of-ramp glare
+dark_background   = "#e6e8ea"
+darker_background = "#d9dbde"
+lighter_background = "#fbfbfc"  # raised surface
+
+foreground        = "#1a1d21"   # body text, 15.4:1
+dark_foreground   = "#3c424a"   # dim body
+light_foreground  = "#33383f"
+bright_foreground = "#0a0c0e"   # emphasis, 17.8:1
+
+red     = "#b02a20"   # urgent / error
+yellow  = "#855f00"   # warning (olive to clear the azure accent)
+orange  = "#9a5a12"
+green   = "#1e6a3e"   # success
+cyan    = "#0e6270"
+blue    = "#16589f"
+magenta = "#8a3a88"
+brown   = "#6b4a2e"
+
+bright_red     = "#c23528"
+bright_yellow  = "#9a6f00"
+bright_green   = "#268049"
+bright_cyan    = "#148294"
+bright_blue    = "#1f6cbd"
+bright_magenta = "#a3489f"
