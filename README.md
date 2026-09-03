@@ -6,7 +6,7 @@ A light Omarchy theme for people who read a lot of text on a small screen. Grey 
 
 I work on a 14" 1920x1080 ThinkPad and my eyesight is minus six. On that screen most light themes either glare or wash out. So the ground here is off-white (`#f3f4f6`) rather than pure white, body text sits at 15:1, and nearly everything else is grey. The only colour that carries meaning is the blue (`#16589f`): links, the accent, the border of the focused window. And because nothing else competes with it, you spot it without looking for it.
 
-Selection is a plain, fairly strong fill (`#97abc4`). I wanted a thin accent edge around the selected region, but no terminal or editor that Omarchy themes exposes one, so the fill got deeper instead. Selected text stays above 7:1. The fill itself sits at about 2:1 against the page, which is on purpose: a single colour cannot be a 3:1 region and hold 7:1 text at the same time, and I chose readable text.
+Selection is a plain, fairly strong fill (`#97abc4`). I wanted a thin accent edge around the selected region. But no terminal or editor that Omarchy themes exposes one, so the fill got deeper instead. Selected text stays above 7:1. The fill itself sits at about 2:1 against the page, which is on purpose: a single colour cannot be a 3:1 region and hold 7:1 text at the same time, and I chose readable text.
 
 ## Install
 
@@ -14,7 +14,7 @@ Selection is a plain, fairly strong fill (`#97abc4`). I wanted a thin accent edg
 omarchy theme install https://github.com/vitalibondar/omarchy-slate-signal-day-theme.git
 ```
 
-Two wallpapers ship with the theme. `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them.
+Two wallpapers ship with the theme. And they are part of it, not an afterthought: `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them.
 
 ## The pair
 
