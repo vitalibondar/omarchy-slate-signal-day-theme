@@ -14,7 +14,9 @@ Selection is a plain, fairly strong fill (`#97abc4`). I wanted a thin accent edg
 omarchy theme install https://github.com/vitalibondar/omarchy-slate-signal-day-theme.git
 ```
 
-Two wallpapers ship with the theme. And they are part of it, not an afterthought: `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them.
+Two wallpapers ship with the theme, and they are part of it: `01` is a damask tile for everyday use, so any gap between tiled windows lands on full detail. `02` is a bouquet with more empty space, better for the lock screen or as a change. `omarchy theme bg next` cycles between them. Both are 3840x2160.
+
+The bar is translucent in this theme (`shell.bar.toml`, alpha 0.5), with a light blur under it so the clock stays readable over the flowers. The blur is a Hyprland setting, and it lives with the other machine files in the slate-signal repo.
 
 ## The pair
 
@@ -35,7 +37,7 @@ Measured on the hex values with the checker from the slate-signal repo, WCAG 2.x
 
 ## Status
 
-New. It went onto my own machine on 3 September 2026, and previews will follow once I have lived with it for a bit. If something reads badly on your screen, open an issue and say which screen.
+New. It went onto my own machine on 3 September 2026. After the first day I made the bar translucent and upscaled the wallpapers, and the previews in this repo are from that state, taken on a 14" 1080p panel at text size 14. If something reads badly on your screen, open an issue and say which screen.
 
 ## Credits
 
