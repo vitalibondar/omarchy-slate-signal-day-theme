@@ -1,0 +1,13 @@
+# Slate Signal — per-theme [bar] override (Omarchy merges shell.<section>.toml
+# into the generated shell.toml when the theme is applied). Body must carry the
+# whole section: it replaces the generated [bar], it does not patch it.
+# 2026-09-04: translucent bar per theme — Day lighter than Night, because the
+# wallpaper frame in the bar's tone reads asymmetric on the light theme.
+[bar]
+background       = "#f3f4f6"
+background-alpha = 0.5
+text             = "#1a1d21"
+active           = "#b02a20"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
